@@ -2,6 +2,7 @@ package com.example.mvvm.view.uicontroller
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -71,4 +72,12 @@ modifier: Modifier = Modifier
                 thickness = dimensionResource(1.dp),
                 color = lili
             )
+            Row {
+                pilihanJK.forEach { item ->
+                    Row(modifier = Modifier.selectable(
+                        selected = txtGender == item,
+                        onClick = {
+                            txtGender = item
+                        }
+                    ),
 
