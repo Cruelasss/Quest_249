@@ -34,6 +34,8 @@ fun TampilSiswa(
         Pair(first = stringResource(id = R.string.nama), second = statusUISiswa.nama),
         Pair(first = stringResource(id = R.string.gender), second = statusUISiswa.gender),
         Pair(first = stringResource(id = R.string.alamat), second = statusUISiswa.alamat)
+
+
     )
 
     Scaffold(

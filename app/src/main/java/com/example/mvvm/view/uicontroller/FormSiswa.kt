@@ -51,7 +51,7 @@ fun FormSiswa(
         modifier = Modifier,
         topBar = {
             CenterAlignedTopAppBar(
-                title = { Text(text = stringResource(id = R.string.app_name), color = lali) },
+                title = { Text(text = stringResource(id = R.string.app_name), color = lili) },
                 colors = TopAppBarDefaults.mediumTopAppBarColors(containerColor = array)
             )
         }
@@ -109,7 +109,7 @@ fun FormSiswa(
                     .padding(all = 5.dp)
                     .width(width = 250.dp),
                 thickness = 1.dp,
-                color = array
+                color = lali
             )
 
             OutlinedTextField(
