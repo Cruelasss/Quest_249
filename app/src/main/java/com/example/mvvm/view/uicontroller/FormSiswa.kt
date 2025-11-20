@@ -3,6 +3,8 @@ package com.example.mvvm.view.uicontroller
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.selection.selectable
@@ -112,4 +114,5 @@ modifier: Modifier = Modifier
                     txtAlamat = it
                 }
             )
+            Spacer(modifier = Modifier.height(height = 20.dp))
 
